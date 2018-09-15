@@ -1,0 +1,10 @@
+require(["config"],function(){
+	require(["jquery","lunbo","header","saleList","detail","user","cart"],function($,lunbo,header,saleList,detail,user,cart){
+		lunbo.init();
+		header.init();
+		saleList.init();
+		detail.init();
+		user.init();
+		cart.init();
+	})
+})

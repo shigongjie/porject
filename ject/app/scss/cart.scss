@@ -1,0 +1,107 @@
+@import "reset";
+@import "header";
+@import "footer";
+#cartNav{
+    width: 1200px;
+    height: 50px;
+    margin: 100px auto;
+    background: #fafafa;
+    border: 1px solid #e1e1e1;
+    margin-bottom: 21px;
+    li{float: left;line-height: 50px;font-size: 14px;color: #a35729;
+       &:nth-child(5){margin-left: 120px;}
+       &:nth-child(1){margin-left: 162px;}
+       &:nth-child(2){margin-left: 258px;}
+       &:nth-child(3){margin-left: 264px;}
+       &:nth-child(4){margin-left: 98px;}
+    }
+}
+#carts{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    .thing{
+            width: 1200px;
+            height: 90px;
+            float: left;
+            .thingImg{
+                width: 88px;
+                height: 88px;
+                float: left;
+                img{
+                    width: 88px;
+                height: 88px;
+                }
+            }
+            p{
+                width: 278px;
+                height: 23px;
+                float: left;
+                font-size: 13px;
+                margin-top: 20px;
+                margin-left: 15px;   
+                color: #684029;
+            }
+            span{
+                float: left;
+                margin-top: 20px;
+                margin-left: 366px;
+                font-size: 12px;
+                color: #684029;
+            }
+            .counts{
+                float: left;
+                margin-left: 95px;
+            }
+            .allmoney{
+                float: left;
+                margin-left: 124px;
+                color: darkred;
+            }
+        }
+//  #allSale{
+//      width: 1147px;
+//      height: 91px;
+//  }
+}
+#pay{
+    width: 1200px;
+    margin: auto;
+    height: 280px;
+    border: 1px solid #e1e1e1;
+    background: #fafafa;
+    #allDel{
+        width: 95px;
+        height: 31px;
+        color: #a35729;
+        float: left;
+        font-size: 14px;
+        margin-top: 25px;
+        margin-left: 65px;
+    }
+    #money{
+        width: 265px;
+        height: 220px;
+        float: right;
+        margin-top: 25px;
+        p{
+           color: #a35729;
+           float: right;
+          span{display: block;
+          height: 21px;
+          width: 70px;
+          float: right;}
+        }
+        button{
+            width: 253px;
+            height: 43px;
+            color: white;
+            border:none;
+            outline: none;
+            background: #684029;
+            float: right;
+            margin-right: 10px;
+            margin-top: 70px;
+        }
+    }
+}

@@ -1,0 +1,264 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div, figure {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+fieldset, img {
+  border: none; }
+
+em, i, strong, b {
+  font-style: normal;
+  font-weight: normal; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center; }
+
+button:hover {
+  cursor: pointer; }
+
+#header {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+  z-index: 999;
+  box-shadow: 0px 1px 0px 0px #CCCCCC; }
+  #header .logo {
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px; }
+    #header .logo img {
+      width: 125px;
+      height: 48px; }
+  #header .nav {
+    height: 80px;
+    margin-left: 15px;
+    float: left; }
+    #header .nav li {
+      padding: 0 15px;
+      line-height: 80px;
+      float: left; }
+    #header .nav a {
+      font-size: 13px;
+      color: #684029; }
+  #header .navR p {
+    width: 25px;
+    height: 25px;
+    background: url(../images/icon.png) -769px -99px;
+    background-size: 400px;
+    margin-right: 36px;
+    margin-top: 30px;
+    position: relative; }
+  #header #count {
+    background: #D6A56D;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 1190px;
+    color: white;
+    font-size: 12px;
+    text-align: center; }
+  #header .navR {
+    float: right; }
+    #header .navR li {
+      float: left;
+      padding-right: 25px;
+      line-height: 80px; }
+    #header .navR a {
+      font-size: 13px;
+      color: #684029; }
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div, figure {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+fieldset, img {
+  border: none; }
+
+em, i, strong, b {
+  font-style: normal;
+  font-weight: normal; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center; }
+
+button:hover {
+  cursor: pointer; }
+
+#foot {
+  width: 100%;
+  height: 380px;
+  background: #333333;
+  overflow: hidden; }
+  #foot .logoi {
+    width: 104px;
+    height: 40px;
+    margin: 30px auto; }
+    #foot .logoi img {
+      width: 104px;
+      height: 40px; }
+  #foot .navo {
+    width: 700px;
+    margin: 0 auto;
+    height: 50px; }
+    #foot .navo li {
+      float: left;
+      padding: 0 40px;
+      text-align: center;
+      border-right: 1px solid white;
+      line-height: 14px; }
+      #foot .navo li:last-child {
+        border: none; }
+      #foot .navo li a {
+        color: white;
+        font-size: 12px; }
+  #foot .icons {
+    margin-left: 475px;
+    height: 50px; }
+    #foot .icons li {
+      width: 53px;
+      height: 53px;
+      float: left;
+      margin-left: 35px; }
+  #foot .word {
+    height: 90px;
+    margin-top: 20px; }
+    #foot .word p {
+      text-align: center;
+      font-size: 12px;
+      color: #9a9a9a;
+      margin-top: 5px; }
+  #foot #hr {
+    border-bottom: 1px solid #9a9a9a;
+    margin-top: 25px; }
+  #foot p {
+    text-align: center;
+    font-size: 12px;
+    color: #9a9a9a;
+    margin-top: 5px;
+    margin-top: 10px; }
+
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img, div, figure {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+fieldset, img {
+  border: none; }
+
+em, i, strong, b {
+  font-style: normal;
+  font-weight: normal; }
+
+ul, ol {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center; }
+
+button:hover {
+  cursor: pointer; }
+
+#warp {
+  width: 100%;
+  height: 840px;
+  margin-top: 80px;
+  background: url(../images/passport-banner.jpg) -315px -11px; }
+  #warp #userForm {
+    width: 386px;
+    height: 549px;
+    border: 1px solid #d4c9c9;
+    float: right;
+    margin-top: 115px;
+    margin-right: 100px;
+    background: #ffffff; }
+    #warp #userForm p {
+      text-align: center;
+      margin-top: 33px;
+      color: #482618;
+      font-size: 17px;
+      margin-bottom: 22px; }
+    #warp #userForm input {
+      width: 302px;
+      height: 38px;
+      box-sizing: border-box;
+      margin-left: 43px;
+      margin-top: 13px;
+      border: 1px solid #d4c9c9;
+      padding-left: 10px;
+      outline: none; }
+    #warp #userForm #yanz {
+      width: 137px;
+      float: left; }
+    #warp #userForm #missage {
+      width: 139px; }
+    #warp #userForm #reuse {
+      width: 40px;
+      height: 39px;
+      float: left;
+      background: url(../images/icon.png) -21px -63px;
+      background-size: 500px;
+      margin-top: 13px; }
+    #warp #userForm #yanZheng {
+      width: 114px;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+      font-size: 18px;
+      background: url(../images/84f0375298ea7fe876ae1447c2911400.jpg);
+      float: left;
+      margin-top: 13px;
+      margin-left: 12px; }
+    #warp #userForm button {
+      width: 151px;
+      height: 38px;
+      border: none;
+      margin-left: 11px; }
+    #warp #userForm #rejist {
+      width: 302px;
+      height: 38px;
+      background: #442818;
+      color: white;
+      border: none;
+      margin-left: 43px;
+      margin-top: 30px; }
+    #warp #userForm #chose {
+      width: 13px;
+      height: 13px;
+      margin-right: 5px; }
+    #warp #userForm span {
+      display: block;
+      font-size: 12px;
+      margin-top: -19px;
+      margin-left: 64px; }

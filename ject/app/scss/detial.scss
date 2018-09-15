@@ -1,0 +1,89 @@
+@import "reset";
+@import "header";
+@import "footer";
+#detail{
+    
+    width: 1052px;
+    margin:auto;
+    margin-top: 80px;
+
+}
+#detailImg{
+            
+            dt{ 
+                
+                img{width: 928px;
+                height: 521px;
+                margin-top: 10px;}
+            }
+            dd{@extend dt;margin-top: 22px;}
+            
+        }
+#crib{
+    width: 261px;
+    height: 219px;
+    border: 1px solid;
+    float: left;
+    margin-top: 36px;
+    p{
+        font-size: 12px;
+        color: #684029;
+        line-height: 30px;
+        margin-top: 50px;
+    }
+}
+#selec{
+    width: 300px;
+    height: 172px;
+    border: 1px solid;
+    float: left;
+    margin-left: 280px;
+}
+#price{
+    float: left;
+    margin-top: 145px;
+    p{
+       font-size: 19px;
+       color: #d6a56d;
+    }
+}
+#guige{
+    width: 358px;
+    height: 36px;
+    margin-left: 541px;
+    margin-top: 180px;
+    p{float: left;margin-top: 4px;color: #684029;}
+    li{float: left;margin-left: 11px;width: 62px;
+    height: 31px;border: 1px solid #e7e0dd;text-align: center;line-height: 31px;font-size:12px ;}
+}
+#sure{
+    width: 370px;
+    margin-left: 541px;
+    margin-top: 20px;
+    button{
+        width: 167px;
+        height: 28px;
+        border: none;
+        background: #f4f4f4;
+        color: #684029;
+    }
+    #into{
+        background: #684029;
+        color: white;
+        margin-left: 20px;
+    }
+}
+#part{
+    width: 1052px;
+    margin:auto;
+    margin-top: 50px;
+    border-top:1px solid #e2e2e2 ;
+}
+#allPic{
+    
+    width: 1052px;
+    margin:auto;
+    margin-top: 80px;
+    img{width: 1052px;margin-top: 60px;}
+
+}

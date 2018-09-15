@@ -1,0 +1,83 @@
+@import "header";
+@import "footer";
+@import "reset";
+#warp{
+    width: 100%;
+    height: 840px;
+    margin-top: 80px;
+    background: (url(../images/passport-banner.jpg) -315px -11px);
+    #userForm{
+        width: 386px;
+        height: 549px;
+        border: 1px solid #d4c9c9;
+        float: right;
+        margin-top: 115px;
+        margin-right: 100px;
+        background: #ffffff;
+        p{
+            text-align: center;
+            margin-top: 33px;
+            color: #482618;
+            font-size: 17px;
+            margin-bottom: 22px;
+        }
+        input{
+                width: 302px;
+                height: 38px;
+                box-sizing: border-box;
+                margin-left: 43px;
+                margin-top: 13px;
+                border: 1px solid #d4c9c9;
+                padding-left: 10px;
+                outline: none;
+            }
+        #yanz{width: 137px;float: left;}
+        #missage{width: 139px;}
+        #reuse{
+            width: 40px;
+            height: 39px;
+            float: left;
+            background: (url(../images/icon.png) -21px -63px);
+            background-size: 500px;
+            margin-top: 13px;
+        }
+        #yanZheng{
+            width: 114px;
+            height: 38px;
+            text-align: center;
+            line-height: 38px;
+            font-size: 18px;
+            background: url(../images/84f0375298ea7fe876ae1447c2911400.jpg);
+            float: left;
+            margin-top: 13px;
+            margin-left: 12px;
+        }
+        button{
+            width: 151px;
+            height: 38px;
+            border: none;
+            margin-left: 11px;
+        }
+        #rejist{
+                width: 302px;
+                height: 38px;
+                background: #442818;
+                color: white;
+                border: none;
+                margin-left: 43px;
+                margin-top: 30px;
+        }
+        #chose{
+            width: 13px;
+            height: 13px;
+            margin-right: 5px;
+        }
+        span{
+            display: block;
+            font-size: 12px;
+             margin-top: -19px;
+             margin-left: 64px;
+        }
+        
+    }
+}

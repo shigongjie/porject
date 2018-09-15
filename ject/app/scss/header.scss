@@ -1,0 +1,47 @@
+@import "reset";
+$border:1px solid;
+$L:left;
+#header{
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    background: #ffffff;
+    z-index: 999;
+    box-shadow: 0px 1px 0px 0px #CCCCCC;
+
+.logo{float:$L;margin-left: 30px;margin-top: 15px;
+img{width: 125px;height: 48px;}}
+.nav{
+       height:80px;margin-left: 15px;float: $L;
+    li{padding: 0 15px;line-height: 80px;float: $L;}
+    a{font-size: 13px;color: #684029;}
+}
+.navR p{
+    width: 25px;
+    height: 25px;
+    background: (url(../images/icon.png) -769px -99px);
+    background-size: 400px;
+    margin-right: 36px;
+    margin-top: 30px;
+    position: relative;
+    
+}
+#count{
+    background: #D6A56D;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    top: 22px;
+    left: 1190px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.navR{float:right;
+
+li{float: left;padding-right: 25px;line-height: 80px;}
+a{font-size: 13px;color: #684029;}
+}
+}

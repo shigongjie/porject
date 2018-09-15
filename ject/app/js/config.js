@@ -1,0 +1,33 @@
+require.config({
+	baseUrl:"/",
+	paths:{
+		"jquery":"libs/jquery-1.12.4",
+		"lunbo":"module/lunbo",
+		"header":"module/header",
+		"template": "libs/template-web",
+		"saleList":"module/saleList",
+		"detail":"module/detail",
+		"user":"module/user",
+		"cart":"module/cart"
+	},
+	shim:{
+		lunbo:{
+			deps:["jquery"]
+		},
+		header:{
+			deps:["jquery"]
+		},
+		saleList:{
+			deps:["jquery"]
+		},
+		detail:{
+			deps:["jquery"]
+		},
+		user:{
+			deps:["jquery"]
+		},
+		cart:{
+			deps:["jquery"]
+		}
+	}
+})

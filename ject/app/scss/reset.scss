@@ -1,0 +1,26 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img ,div,figure{
+     margin:0;
+     padding:0; 
+     box-sizing: border-box;
+     list-style: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+fieldset, img { 
+    border:none;
+}
+em,i,strong,b{ 
+    font-style:normal; 
+    font-weight:normal; 
+}
+ul, ol { 
+    list-style:none; 
+} 
+a {
+    text-decoration:none; 
+    cursor:pointer;
+    text-align: center;
+}
+button:hover{cursor: pointer;}
